@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TBMYO\\SportsSln\\SportsStore\\SportsStore.csproj": {}
+    "C:\\Users\\LAB302-01\\Documents\\GitHub\\SportsSln\\SportsStore\\SportsStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TBMYO\\SportsSln\\SportsStore\\SportsStore.csproj": {
+    "C:\\Users\\LAB302-01\\Documents\\GitHub\\SportsSln\\SportsStore\\SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TBMYO\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectUniqueName": "C:\\Users\\LAB302-01\\Documents\\GitHub\\SportsSln\\SportsStore\\SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "C:\\Users\\TBMYO\\SportsSln\\SportsStore\\SportsStore.csproj",
-        "packagesPath": "C:\\Users\\TBMYO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TBMYO\\SportsSln\\SportsStore\\obj\\",
+        "projectPath": "C:\\Users\\LAB302-01\\Documents\\GitHub\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "packagesPath": "C:\\Users\\LAB302-01\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LAB302-01\\Documents\\GitHub\\SportsSln\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TBMYO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LAB302-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,30 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "D:\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
