@@ -8155,19 +8155,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LAB302-01\\.nuget\\packages\\": {}
+    "C:\\Users\\TBMYO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LAB302-01\\Documents\\GitHub\\SportsSln\\SportsStore\\SportsStore.csproj",
+      "projectUniqueName": "C:\\Users\\TBMYO\\SportsSln\\SportsStore\\SportsStore.csproj",
       "projectName": "SportsStore",
-      "projectPath": "C:\\Users\\LAB302-01\\Documents\\GitHub\\SportsSln\\SportsStore\\SportsStore.csproj",
-      "packagesPath": "C:\\Users\\LAB302-01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LAB302-01\\Documents\\GitHub\\SportsSln\\SportsStore\\obj\\",
+      "projectPath": "C:\\Users\\TBMYO\\SportsSln\\SportsStore\\SportsStore.csproj",
+      "packagesPath": "C:\\Users\\TBMYO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TBMYO\\SportsSln\\SportsStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LAB302-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TBMYO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8242,7 +8242,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "D:\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
