@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace SportsStore.Models;
 
@@ -17,5 +18,6 @@ public class Product
 	
 	
 	public string Category { get; set; } = String.Empty;
+
 
 }
