@@ -6,6 +6,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<StoreDbContext>(options =>
         options.UseSqlite(builder.Configuration.GetConnectionString("SsCon")));
 
+builder.Services.AddScoped<IStoreRepository, EFStoreRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
