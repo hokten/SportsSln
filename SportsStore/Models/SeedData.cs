@@ -5,9 +5,6 @@ public static class SeedData {
 	public static void EnsurePopulated(IApplicationBuilder app) {
 		StoreDbContext context = app.ApplicationServices
 		.CreateScope().ServiceProvider.GetRequiredService<StoreDbContext>();
-		if (context.Database.GetPendingMigrations().Any()) {
-			context.Database.Migrate();
-		}
 		if (!context.Urunler.Any()) {
 			context.Urunler.AddRange(
 				new Product {
